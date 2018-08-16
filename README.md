@@ -38,3 +38,26 @@ retrieves the message.
 + Response `500` (application/x-www-form-urlencoded)
     <pre><code class="json">{ "status":500,"message":"sendto: no group can select" }</code></pre>
 
+## Sample from AJAX
+<pre><code class="javascript">
+function testAPI(){
+  $.ajax({
+      async: true,
+      cache: false,
+      type:'POST',
+      url:'http://nmis.evergreen.com.tw:9000/api',
+      dataType:'json',
+      data:{
+        message:"Hello",
+        sendto: "SYM-SY3",
+        sendfm: "KIWY"
+       },
+      success:function(data){
+        console.log(data);
+      }, error:function(err){
+        console.log(err);
+      }
+  });
+
+  }
+</code></pre>
