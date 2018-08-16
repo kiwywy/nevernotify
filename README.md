@@ -18,9 +18,9 @@ Now this is informative! No extra explanation needed here. This action clearly
 retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
-<pre>
+
 ```html{ "status":405,"message":"Method Not Allowed" }```
-</pre>
+
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
 + Parameters
@@ -31,13 +31,7 @@ retrieves the message.
 + Request (application/x-www-form-urlencoded) 
 
 + Response `200` (application/x-www-form-urlencoded)
-
-    + Body
-
-            {
-                "status":200,
-                "message":"ok"
-            }
+```html{ "status":200,"message":"ok" }```
         
 + Response `400` (application/x-www-form-urlencoded)
 
