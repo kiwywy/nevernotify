@@ -19,7 +19,7 @@ retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
 <pre><code class="html">{ "status":405,"message":"Method Not Allowed" }</code></pre>
-```html{ "status":405,"message":"Method Not Allowed" }```
+```ruby{ "status":405,"message":"Method Not Allowed" }```
 
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
