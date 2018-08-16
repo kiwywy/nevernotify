@@ -39,8 +39,7 @@ retrieves the message.
     <pre><code class="json">{ "status":500,"message":"sendto: no group can select" }</code></pre>
 
 ## Sample from AJAX
-<pre><code class="javascript">
-function testAPI(){
+<pre><code class="javascript">function testAPI(){
   $.ajax({
       async: true,
       cache: false,
@@ -59,5 +58,4 @@ function testAPI(){
       }
   });
 
-  }
-</code></pre>
+  }</code></pre>
