@@ -24,13 +24,12 @@ retrieves the message.
 + Response `405` (application/x-www-form-urlencoded)
 
     + Body
-
+<pre>
             {
                 "status":405,
                 "message":"Method Not Allowed"
             }
-
-
+</pre>
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
 + Parameters
