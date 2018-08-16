@@ -1,5 +1,4 @@
 FORMAT: 1A
-HOST: http://nmis.evergreen.com.tw:9000/
 
 # Never Notify
 
