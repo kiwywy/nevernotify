@@ -18,8 +18,7 @@ Now this is informative! No extra explanation needed here. This action clearly
 retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
-<pre><code class="html">{ "status":405,"message":"Method Not Allowed" }</code></pre>
-```ruby{ "status":405,"message":"Method Not Allowed" }```
+<pre><code class="json">{ "status":405,"message":"Method Not Allowed" }</code></pre>
 
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
@@ -31,40 +30,17 @@ retrieves the message.
 + Request (application/x-www-form-urlencoded) 
 
 + Response `200` (application/x-www-form-urlencoded)
-```html{ "status":200,"message":"ok" }```
+<pre><code class="json">{ "status":200,"message":"ok" }</code></pre>
         
 + Response `400` (application/x-www-form-urlencoded)
-
-    + Body
-
-            {
-                "status":400,
-                "message":"sendto: may not be empty"
-            }
+<pre><code class="json">{ "status":400,"message":"sendto: may not be empty" }</code></pre>
         
 + Response `410` (application/x-www-form-urlencoded)
-
-    + Body
-
-            {
-                "status":410,
-                "message":"sendfm: may not be empty"
-            }
+<pre><code class="json">{ "status":410,"message":"sendfm: may not be empty" }</code></pre>
         
 + Response `420` (application/x-www-form-urlencoded)
-
-    + Body
-
-            {
-                "status":420,
-                "message":"message: may not be empty"
-            }
+<pre><code class="json">{ "status":420,"message":"message: may not be empty" }</code></pre>
         
 + Response `500` (application/x-www-form-urlencoded)
+<pre><code class="json">{ "status":500,"message":"sendto: no group can select" }</code></pre>
 
-    + Body
-
-            {
-                "status":500,
-                "message":"sendto: no group can select"
-            }
