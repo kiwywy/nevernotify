@@ -1,5 +1,3 @@
-FORMAT: 1A
-
 # Never Notify
 
 You can use this API to send message alerts for the Line group. 
@@ -15,20 +13,13 @@ Your message will be saved after the message is delivered.
 OK, `Never Notify` probably isn't the best name for our resource but it will do
 for now. Note the URI `/api` is enclosed in square brackets.
 
-
-
 ### Retrieve a Message [GET]
 Now this is informative! No extra explanation needed here. This action clearly
 retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
-
-    + Body
 <pre>
-            {
-                "status":405,
-                "message":"Method Not Allowed"
-            }
+{ "status":405,"message":"Method Not Allowed" }
 </pre>
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
