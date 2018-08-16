@@ -21,7 +21,7 @@ for now. Note the URI `/api` is enclosed in square brackets.
 Now this is informative! No extra explanation needed here. This action clearly
 retrieves the message.
 
-+ Response 405 (application/x-www-form-urlencoded)
++ Response `405` (application/x-www-form-urlencoded)
 
     + Body
 
@@ -40,7 +40,7 @@ retrieves the message.
     
 + Request (application/x-www-form-urlencoded) 
 
-+ Response 200 (application/x-www-form-urlencoded)
++ Response `200` (application/x-www-form-urlencoded)
 
     + Body
 
@@ -49,7 +49,7 @@ retrieves the message.
                 "message":"ok"
             }
         
-+ Response 400 (application/x-www-form-urlencoded)
++ Response `400` (application/x-www-form-urlencoded)
 
     + Body
 
@@ -58,7 +58,7 @@ retrieves the message.
                 "message":"sendto: may not be empty"
             }
         
-+ Response 410 (application/x-www-form-urlencoded)
++ Response `410` (application/x-www-form-urlencoded)
 
     + Body
 
@@ -67,7 +67,7 @@ retrieves the message.
                 "message":"sendfm: may not be empty"
             }
         
-+ Response 420 (application/x-www-form-urlencoded)
++ Response `420` (application/x-www-form-urlencoded)
 
     + Body
 
@@ -76,7 +76,7 @@ retrieves the message.
                 "message":"message: may not be empty"
             }
         
-+ Response 500 (application/x-www-form-urlencoded)
++ Response `500` (application/x-www-form-urlencoded)
 
     + Body
 
