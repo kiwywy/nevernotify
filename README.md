@@ -19,7 +19,7 @@ retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
 <pre>
-{ "status":405,"message":"Method Not Allowed" }
+```html{ "status":405,"message":"Method Not Allowed" }```
 </pre>
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
