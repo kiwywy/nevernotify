@@ -2,10 +2,10 @@
 
 You can use this API to send message alerts for the Line group. 
 Your message will be saved after the message is delivered. 
-*You can view the history from http://nmis.evergreen.com.tw:9000/history.*
+*You can view the history from http://localhost/history.*
 
 ## API Parameters [/api]
-+ `sendto(string)` Select Your Dept from *SYM-SY1,SYM-SY2,SYM-SY3,SYM-SY4,SYM-SY5,SYM-SSV,SYM-COM,SYM-TSM,UHD*
++ `sendto(string)` Select Your Dept
 + `sendfm(string)` Please enter your **Server Name** or **Application Name** or **AD Number**.
 + `message(string)` String type without html code.
 
@@ -44,11 +44,11 @@ retrieves the message.
       async: true,
       cache: false,
       type:'POST',
-      url:'http://nmis.evergreen.com.tw:9000/api',
+      url:'http://localhost/api',
       dataType:'json',
       data:{
         message:"Hello",
-        sendto: "SYM-SY3",
+        sendto: "DEPT",
         sendfm: "KIWY"
        },
       success:function(data){
