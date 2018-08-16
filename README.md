@@ -18,7 +18,7 @@ Now this is informative! No extra explanation needed here. This action clearly
 retrieves the message.
 
 + Response `405` (application/x-www-form-urlencoded)
-<pre><code class="json">{ "status":405,"message":"Method Not Allowed" }</code></pre>
+	<pre><code class="json">{ "status":405,"message":"Method Not Allowed" }</code></pre>
 
 ### Send a Message [POST]
 `Send a message` - nice and simple naming is the best way to go.
